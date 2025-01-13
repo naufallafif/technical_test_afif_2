@@ -1,0 +1,64 @@
+@import 'node_modules/swiper/modules/navigation/navigation';
+@import 'node_modules/swiper/modules/pagination/pagination';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply font-secondary text-[22px] text-secondary;
+}
+
+a{
+    @apply text-[20px] hover:text-accent-thirty transition-all duration-300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    @apply font-primary text-primary-default;
+}
+
+.h1{
+    @apply text-[64px] lg:text-[84px] leading-none;
+}
+
+
+.h2{
+    @apply text-[50px] leading-tight;
+}
+
+.h3{
+    @apply text-[25px];
+}
+ 
+.btn{
+    @apply h-[75px] px-[30px] transition-all duration-300 text-neutral-800 rounded-[18px] flex items-center gap-2;
+}
+
+.btn-primary{
+    @apply bg-primary-second hover:bg-primary-hover;
+}
+.btn-accent{
+    @apply bg-accent-default hover:bg-accent-hover;
+}
+
+.poppins{
+    font-family:'Poppins';
+}
+
+.nav-is-open{
+    @apply h-[350px] p-6;
+}
+
+.benefit__erp i {
+  transition: all 0.3s ease-in-out;
+}
+
+.benefit__erp i:hover {
+  transform: scale(1.2);
+  color: red; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
